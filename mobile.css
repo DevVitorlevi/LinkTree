@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(img/bg-mobile.jpg) no-repeat top center/cover;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 360px;
+    height: 712px;
+}
+.profile img{
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+.profile p{
+    text-align: center;
+    color: white;
+    line-height: 44px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    backdrop-filter: blur(5px);
+    
+    
+    
+}
+ul>li>a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+    padding:16px 100px;
+    border-radius: 10px;
+    background: rgb(255, 255,255,0.1);
+    backdrop-filter: blur(4px);
+    font-weight: 500; 
+    transition: all 0.5s;
+}
+ul>li>a:hover{
+    background-color: rgb(255, 255, 255,0.05);
+    border: 1.5px solid white;
+}
+.container .Links{
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+} 
