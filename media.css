@@ -1,0 +1,17 @@
+@media screen and (min-width:992px) and (max-width:1800px){
+    :root{
+        --background:url(img/bg-desktop.jpg);
+    }
+    .ligth{
+        --background:url(img/bg-desktop-light.jpg);
+    }
+    body{
+        background-image: var(--background);
+    }
+    ul>li>a{
+        
+        width: 500px;
+        display: block;
+        text-align: center;
+    }
+}
