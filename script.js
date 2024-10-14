@@ -11,3 +11,8 @@ switch_.addEventListener('click',()=>{
         img.src='./img/avatar.png'
     }
 })
+
+
+
+
+
